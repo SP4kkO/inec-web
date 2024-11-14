@@ -9,9 +9,9 @@ import useStore from "context/zustand/store";
 //   matricula: number;
 //   matriculaBnb: string;
 //   nome: string;
-//   codCargo: string;
+//   cargo: string;
 //   unidade: string;
-//   codSituacao: string;
+//   situacao: string;
 //   dataInicioFuncao: string;
 //   dataFimFuncao: string;
 //   status: string;
@@ -24,9 +24,9 @@ export default class Historico {
   matricula: number;
   matriculaBnb: string;
   nome: string;
-  codCargo: string;
+  cargo: string;
   unidade: string;
-  codSituacao: string;
+  situacao: string;
 
   dataInicioFuncao: Dayjs;
   dataFimFuncao: Dayjs;
@@ -42,9 +42,9 @@ export default class Historico {
     matricula = 0,
     matriculaBnb = "",
     nome = "",
-    codCargo = "",
+    cargo = "",
     unidade = "",
-    codSituacao = "",
+    situacao = "",
     dataInicioFuncao = dayjs(),
     dataFimFuncao = dayjs(),
     status = "",
@@ -55,9 +55,9 @@ export default class Historico {
     matricula?: number;
     matriculaBnb?: string;
     nome?: string;
-    codCargo?: string;
+    cargo?: string;
     unidade?: string;
-    codSituacao?: string;
+    situacao?: string;
     dataInicioFuncao?: Dayjs;
     dataFimFuncao?: Dayjs;
     status?: string;
@@ -68,9 +68,9 @@ export default class Historico {
     this.matricula = matricula;
     this.matriculaBnb = matriculaBnb;
     this.nome = nome;
-    this.codCargo = codCargo;
+    this.cargo = cargo;
     this.unidade = unidade;
-    this.codSituacao = codSituacao;
+    this.situacao = situacao;
     this.dataInicioFuncao = dataInicioFuncao;
     this.dataFimFuncao = dataFimFuncao;
     this.status = status;
@@ -168,9 +168,9 @@ export default class Historico {
 //     data.matricula,
 //     data.matriculaBnb,
 //     data.nome,
-//     data.codCargo,
+//     data.cargo,
 //     data.unidade,
-//     data.codSituacao,
+//     data.situacao,
 //     data.dataInicioFuncao,
 //     data.dataFimFuncao,
 //     data.status,

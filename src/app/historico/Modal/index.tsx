@@ -95,9 +95,9 @@ const HistoryModal = ({
         matricula: "" + hist.matricula,
         matriculaBnb: hist.matriculaBnb,
         nome: hist.nome,
-        codCargo: hist.codCargo,
+        codCargo: hist.cargo,
         CodUnidade: hist.unidade,
-        codSituacao: hist.codSituacao,
+        codSituacao: hist.situacao,
         dataInicioFuncao: hist.dataInicioFuncao,
         dataFimFuncao: hist.dataFimFuncao,
         status: hist.status,
@@ -118,9 +118,9 @@ const HistoryModal = ({
       .replaceAll("-", "");
     item.matriculaBnb = formData.matriculaBnb;
     item.nome = formData.nome;
-    item.codCargo = formData.codCargo;
+    item.cargo = formData.codCargo;
     item.unidade = formData.CodUnidade;
-    item.codSituacao = formData.codSituacao;
+    item.situacao = formData.codSituacao;
     item.dataInicioFuncao = formData.dataInicioFuncao;
     item.dataFimFuncao = formData.dataFimFuncao;
     item.status = formData.status;
