@@ -66,7 +66,7 @@ const DetalhesBnbModal = ({
             <Grid item xs={12} sm={6}>
               <Typography variant="body1">
                 <strong>Data Início Função:</strong>{" "}
-                {dayjs(detalhesBnb.dataFimFuncao).format("DD/MM/YYYY")}
+                {dayjs(detalhesBnb.dataInicioFuncao).format("DD/MM/YYYY")}
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -82,12 +82,12 @@ const DetalhesBnbModal = ({
             </Grid>
             <Grid item xs={12}>
               <Typography variant="body1">
-                <strong>Cargo:</strong> {detalhesBnb.codCargo}
+                <strong>Cargo:</strong> {detalhesBnb.cargo}
               </Typography>
             </Grid>
             <Grid item xs={12}>
               <Typography variant="body1">
-                <strong>Situação:</strong> {detalhesBnb.codSituacao}
+                <strong>Situação:</strong> {detalhesBnb.situacao}
               </Typography>
             </Grid>
             <Grid item xs={12}>
